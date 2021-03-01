@@ -13,4 +13,5 @@ switch (lang){
 
     case en:
         let arr = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+        break;
 }
