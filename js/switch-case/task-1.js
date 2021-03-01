@@ -13,16 +13,20 @@ if (login === 'Вася') {
 let message;
 
 switch (message){
-    case 'Вася':
+    case 'Вася':{
         message = 'Привет';
         break;
-    case 'Директор':
+    }
+    case 'Директор':{
         message = 'Здравствуйте';
         break;
-    case '':
+    }
+    case '':{
         message = 'Нет логина';
         break;
-    default:
+    }
+    default:{
         message = '';
         break;
+    }
 }
