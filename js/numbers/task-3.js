@@ -3,11 +3,12 @@
 
 const numbers = [12, 15, 20, 25, 59, 79];
 
-let mean;
 let sum = 0;
 
 for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
 }
 
-console.log(sum / numbers.length);
+let mean = sum / numbers.length;
+
+console.log(mean);
