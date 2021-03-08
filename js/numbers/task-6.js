@@ -3,8 +3,8 @@
 
 
 function findRemainder(a, b) {
-    let result = a / b;
-    let reminder = a % b;
+    const result = a / b;
+    const reminder = a % b;
     if (reminder == 0) {
         return 'делится ' + result;
     }
