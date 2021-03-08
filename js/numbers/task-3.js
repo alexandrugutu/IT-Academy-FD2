@@ -9,6 +9,6 @@ for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
 }
 
-let mean = sum / numbers.length;
+const mean = sum / numbers.length;
 
 console.log(mean);
