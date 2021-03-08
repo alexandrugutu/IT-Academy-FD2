@@ -2,7 +2,7 @@
 
 // One method:
 
-let exp = Math.pow(2,10);
+let exp = Math.pow(2, 10);
 
 console.log(exp);
 
