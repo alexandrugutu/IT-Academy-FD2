@@ -7,9 +7,10 @@
 // console.log(love.slice(0, 1).toLocaleUpperCase() + love.slice(1, 16).toLocaleLowerCase());
 
 // Method Nr.2
-function changeCaseLetter (string){
+function changeCaseLetter(string) {
     let low = string.slice(0, 1).toLocaleUpperCase();
     let up = string.slice(1, 16).toLocaleLowerCase();
-    return console.log(`${low} ${up}`);
+    return `${low} ${up}`;
 }
-changeCaseLetter('ЯлЮбЛюJAVaScriPt');
+
+console.log(changeCaseLetter('ЯлЮбЛюJAVaScriPt'));
