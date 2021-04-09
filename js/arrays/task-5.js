@@ -1,12 +1,10 @@
 /*Создать массив чисел в диапазоне от 0 до 100. 
 Подсчитать и вывети сумму тех элементов, которые больше 50 */
 
-const onlyNr = [];
+const arrFromZeroToHundred = [...Array(101).keys()];
+const greaterThanFifty= (item) => item > 50;
+const summingUp = (sum, item) => sum + item;
 
-for(let i = 0; i <= 100; i++) {
-    onlyNr.push(i);
-}
+const SumOfGreaterThanFifty = arrFromZeroToHundred.filter(greaterThanFifty).reduce(summingUp, 0);
 
-const sum = onlyNr.filter(elem => elem > 50).reduce((acc, a) => acc + a);
-
-console.log(sum);
+console.log(SumOfGreaterThanFifty);
