@@ -32,15 +32,15 @@ toConsoleLog(lookup);
 
 let sentence = 'How nice to see the sun is shining in the garden!';
 
-function splitWords(msg, callback) {
+function splitToWords(msg, callback) {
     if(callback) {
         return msg.split(' ').forEach(callback);
     } else {
         return msg.split(' ');
     }
 };
-function finale(alfa) {
+function toConsoleTable(alfa) {
     console.log(alfa);
 }
-console.log(splitWords(sentence));
-console.log(splitWords(sentence, finale));
+console.log(splitToWords(sentence));
+console.log(splitToWords(sentence, toConsoleTable));
